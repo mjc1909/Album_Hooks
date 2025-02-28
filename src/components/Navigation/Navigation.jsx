@@ -28,10 +28,10 @@ const Navigation = () => {
 
                 <div className={`${styles.nav} ${isOpen ? styles.open : ''}` }>
                     <NavLink to={"/"} className={({ isActive }) => (isActive ? styles.active : "")}>Home</NavLink>
-                    <NavLink to={"/albums"} className={({ isActive }) => (isActive ? styles.active : "")}>Catalog</NavLink>
-                    <NavLink to={"/favorites"} className={({ isActive }) => (isActive ? styles.active : "")}>Favorites</NavLink>
-                    <NavLink to={"/swiper"} className={({ isActive }) => (isActive ? styles.active : "")}>Swiper</NavLink>
-                    <NavLink to={"/swipe"} className={({ isActive }) => (isActive ? styles.active : "")}>Slider</NavLink>
+                    <NavLink to={"/Catalog"} className={({ isActive }) => (isActive ? styles.active : "")}>Catalog</NavLink>
+                    <NavLink to={"/Favorites"} className={({ isActive }) => (isActive ? styles.active : "")}>Favorites</NavLink>
+                    <NavLink to={"/Swiper"} className={({ isActive }) => (isActive ? styles.active : "")}>Swiper</NavLink>
+                    <NavLink to={"/Slider"} className={({ isActive }) => (isActive ? styles.active : "")}>Slider</NavLink>
                 
                 </div>
                 

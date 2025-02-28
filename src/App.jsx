@@ -7,6 +7,7 @@ import AlbumsPage from "./pages/albums/AlbumsPage";
 import FavoritesPage from "./pages/favorites/FavoritesPage";
 import SwiperPage from "./pages/swiper/SwiperPage";
 import SwipePage from "./pages/swipe/SwipePage";
+import Breadcrumb from "./components/Breadcrumb/Breadcrumb";
 
 
 
@@ -30,19 +31,19 @@ const App = () => {
               element : <AlbumPage></AlbumPage>
             },
             {
-              path: "/albums",
+              path: "/Catalog",
               element : <AlbumsPage></AlbumsPage>
             },
             {
-              path: "/favorites",
+              path: "/Favorites",
               element : <FavoritesPage></FavoritesPage>
             },
             {
-              path: "/swiper",
+              path: "/Swiper",
               element : <SwiperPage></SwiperPage>
             },
             {
-              path: "/swipe",
+              path: "/Slider",
               element : <SwipePage></SwipePage>
             },
             {
@@ -57,6 +58,7 @@ const App = () => {
   return <>
     <div>
         <Navigation></Navigation>
+        <Breadcrumb />
         <div>
             {routes}
         </div>
