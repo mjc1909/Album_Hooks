@@ -29,7 +29,6 @@ const Navigation = () => {
                 <div className={`${styles.nav} ${isOpen ? styles.open : ''}` }>
                     <NavLink to={"/"} className={({ isActive }) => (isActive ? styles.active : "")}>Home</NavLink>
                     <NavLink to={"/Catalog"} className={({ isActive }) => (isActive ? styles.active : "")}>Catalog</NavLink>
-                    <NavLink to={"/Favorites"} className={({ isActive }) => (isActive ? styles.active : "")}>Favorites</NavLink>
                     <NavLink to={"/Swiper"} className={({ isActive }) => (isActive ? styles.active : "")}>Swiper</NavLink>
                     <NavLink to={"/Slider"} className={({ isActive }) => (isActive ? styles.active : "")}>Slider</NavLink>
                 
